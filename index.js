@@ -7,9 +7,9 @@ const config = {
 
 firebase.initializeApp(config);
 
-const preObject=document.getElementById('/potenciometro-c8c82-default-rtdb/-MZVOIH6t-8L5PniD_o8');
+const preObject=document.getElementById('/potenciometro-c8c82-default-rtdb/-Mc1pva_mcNEKMdJn7nr');
 
-const dbRefObject=firebase.database().ref().child('/potenciometro-c8c82-default-rtdb/-MZVOIH6t-8L5PniD_o8');
+const dbRefObject=firebase.database().ref().child('/potenciometro-c8c82-default-rtdb/-Mc1pva_mcNEKMdJn7nr');
 
 dbRefObject.on('value',snap=>{
     preObject.innerText=JSON.stringify(snap.val(),3)});
