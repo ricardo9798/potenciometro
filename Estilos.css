@@ -2,7 +2,7 @@
 body
 {
 font-family: 'Open Sans', sans-serif;
-background-image: linear-gradient(to top, rgba(251, 194, 235, 0.596) 0%, rgba(166, 192, 238, 0.514) 100%), url(img/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg);
+background-image: linear-gradient(to top, rgba(153, 10, 209, 0.596) 0%, rgba(166, 192, 238, 0.514) 100%), url(img/wallpaper-full-hd.jpg);
 margin: auto;
 }
 
@@ -19,7 +19,7 @@ pre{
     padding: 0;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     color: aliceblue;
